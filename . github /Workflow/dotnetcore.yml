@@ -1,0 +1,23 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string stringToShow1;
+            string surname = "Shelest";
+            string name = "Tanya";
+            string otchestvo = "Alekseevna";
+
+            int age = 45;
+            double weight = 69.5;
+
+            stringToShow1 = surname + " " + name + " " + otchestvo + ", возрост" + age + ", вес" + weight;
+
+            System.Console.WriteLine(stringToShow1);
+            System.Console.ReadLine();
+        }
+    }
+}
